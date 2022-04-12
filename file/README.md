@@ -39,7 +39,7 @@ csvファイルはカンマ区切りのテキストファイル
 ### csvを用いる場合
 #### 読み込み
 ##### ベーシックな方法　　
-'''py
+```py
 with open('sample.csv') as f:
     print(f.read())
-'''
+```
