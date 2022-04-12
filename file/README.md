@@ -70,6 +70,6 @@ df.to_csv('export_df.csv', header=False, index=False)
 ```
 DataFrameに変える必要があるが，細かい設定が簡単に行える．
 ## Excel
-Excelもpandasで読み書き出来る．
-シートの操作も行える．
+Excelもpandasで読み書き出来る．  
+シートの操作も行える．  
 詳しくは自分で調べてください．
