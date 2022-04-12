@@ -38,7 +38,7 @@ pythonでcsvファイルの読み込み・書き込みなどを行う場合，�
 csvファイルはカンマ区切りのテキストファイル
 ### csvを用いる場合
 #### 読み込み
-- ベーシックな方法　　
+##### ベーシックな方法　　
 '''py
 with open('sample.csv') as f:
     print(f.read())
