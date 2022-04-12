@@ -51,4 +51,22 @@ import pandas as pd
 d = pd.read_csv('sample.csv',header=None)
 print(d)
 ```
-読み込まれたデータはDataFrameで，データの加工・集計・分析に使いやすい．
+読み込まれたデータはDataFrameで，データの加工・集計・分析に使いやすい．  
+#### 書き込み
+##### ベーシックな方法
+```py
+import csv
+a = [[0,1,2,3],[4,5,6,7],[8,9,10,11]]
+with open('export.csv', 'w') as f:
+    writer = csv.writer(f)
+    writer.writerows(a)
+```
+長い…
+##### pandasを用いる方法
+```py
+import pandas as pd
+a = [[0,1,2,3],[4,5,6,7],[8,9,10,11]]
+df = pd.DataFrame(a)
+df.to_csv('export_df.csv', header=False, index=False)
+```
+DataFrameに変える必要があるが，細かい設定が簡単に行える．
