@@ -41,5 +41,7 @@ csvファイルはカンマ区切りのテキストファイル
 ##### ベーシックな方法　　
 ```py
 with open('sample.csv') as f:
-    print(f.read())
+    d = f.read()
+    print(d)
 ```
+読み込まれたデータは文字列(str)なので，計算などをするには扱いづらい．
