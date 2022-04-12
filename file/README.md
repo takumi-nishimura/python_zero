@@ -34,3 +34,9 @@ home--text---------sample<br>
 text/memo/my_data.txt
 
 ## csv
+pythonでcsvファイルの読み込み・書き込みなどを行う場合，標準ライブラリのcsvやpandasを用いる．  
+csvファイルはカンマ区切りのテキストファイル
+### csvを用いる場合
+#### 読み込み
+
+
