@@ -22,7 +22,7 @@ MacではFinderでファイルを選択し，option+command+cでフルパスを�
 ### 具体例
 以下の様な構成のディレクトリ構造があったとする．<br>
 home--text---------sample<br>
-&emsp;|&emsp;|<br>
+&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;|<br>
 &emsp;|&emsp;--memo--my_data.txt<br>
 &emsp;--imag<br>
 
