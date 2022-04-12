@@ -45,3 +45,10 @@ with open('sample.csv') as f:
     print(d)
 ```
 読み込まれたデータは文字列(str)なので，計算などをするには扱いづらい．
+##### pandasを用いる方法
+```py
+import pandas as pd
+d = pd.read_csv('sample.csv',header=None)
+print(d)
+```
+読み込まれたデータはDataFrameで，データの加工・集計・分析に使いやすい．
