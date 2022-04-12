@@ -20,10 +20,10 @@ MacではFinderでファイルを選択し，option+command+cでフルパスを�
 相対パスでファイルを指定する事で，システム内での基準の位置が変わった時，正しく位置を表せなくなる．
 
 ### 具体例
-以下の様な構成のディレクトリ構造があったとする．  
-home--text---------sample. 
-     |          |  
-     |          --memo--my_data.txt. 
-     --image. 
+以下の様な構成のディレクトリ構造があったとする．<br>
+home--text---------sample<br>
+     |          |  <br>
+     |          --memo--my_data.txt <br>
+     --image <br>
 
 ## csv
