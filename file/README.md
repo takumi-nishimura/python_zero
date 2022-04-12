@@ -27,10 +27,10 @@ home--text---------sample<br>
 &emsp;&emsp;&emsp;--imag<br>
 
 ### 絶対パスの例
-「my_data.txt」の位置を絶対パスで示すと，現在の位置に関わらず　　
+「my_data.txt」の位置を絶対パスで示すと，現在の位置に関わらず<br>
 /home/text/memo/my_data.txt
 ### 相対パスの例
-現在の位置が「text」で「my_data.txt」を参照したい場合，　　
+現在の位置が「text」で「my_data.txt」を参照したい場合，<br>
 text/memo/my_data.txt
 
 ## csv
