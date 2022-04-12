@@ -3,7 +3,6 @@
 - 絶対パス・相対パス
 - csv
 - excel
-- 画像
 
 ## 絶対パス・相対パス
 プログラミングでは，ファイルの場所を示す方法として「絶対パス」と「相対パス」がある．
@@ -70,3 +69,7 @@ df = pd.DataFrame(a)
 df.to_csv('export_df.csv', header=False, index=False)
 ```
 DataFrameに変える必要があるが，細かい設定が簡単に行える．
+## Excel
+Excelもpandasで読み書き出来る．
+シートの操作も行える．
+詳しくは自分で調べてください．
