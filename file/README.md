@@ -23,7 +23,7 @@ MacではFinderでファイルを選択し，option+command+cでフルパスを�
 以下の様な構成のディレクトリ構造があったとする．<br>
 home--text---------sample<br>
 &emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;|<br>
-&emsp;|&emsp;--memo--my_data.txt<br>
-&emsp;--imag<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;--memo--my_data.txt<br>
+&emsp;&emsp;&emsp;--imag<br>
 
 ## csv
