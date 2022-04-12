@@ -22,8 +22,8 @@ MacではFinderでファイルを選択し，option+command+cでフルパスを�
 ### 具体例
 以下の様な構成のディレクトリ構造があったとする．<br>
 home--text---------sample<br>
-     |          |  <br>
-     |          --memo--my_data.txt <br>
-     --image <br>
+     |          |<br>
+     |          --memo--my_data.txt<br>
+     --imag<br>
 
 ## csv
