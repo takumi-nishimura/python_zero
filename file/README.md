@@ -72,4 +72,7 @@ DataFrameに変える必要があるが，細かい設定が簡単に行える�
 ## Excel
 Excelもpandasで読み書き出来る．  
 シートの操作も行える．  
-詳しくは自分で調べてください．
+詳しくは自分で調べてください．　　
+以下のインストールが必要．  
+pip install openpyxl　　
+pip install xlrd
